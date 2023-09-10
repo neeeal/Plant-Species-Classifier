@@ -95,7 +95,7 @@ model.add(transfer_model)
 
 ## DENSE LAYERS / HIDDEN LAYERS
 model.add(GlobalAveragePooling2D())
-model.add(Dropout(0.3))
+# model.add(Dropout(0.3))
 # model.add(Dense(units=256, activion='relu'))
 # model.add(Dense(units=256, activatation='relu'))
 
